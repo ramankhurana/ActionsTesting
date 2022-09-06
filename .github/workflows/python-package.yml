@@ -5,23 +5,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Python package
-
-on:
-  push:
-    branches: [ "main" ] The job was automatically triggered by a $- This job is now running on a ${{ runner.os }} server hosted by GitHub!{{ github.event_name }}"
-      - run: echo " event."
-      - run: echo "
-    
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-          python-version: ["3.x"] The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - run: echo "      - run: echo "
