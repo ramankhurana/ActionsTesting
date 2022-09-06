@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "# This workflow will install Python dependencies, run tests and lint with a variety of Python versions"
-      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "The job was automatically triggered by a a ${{ github.event_name }} event."
+      - run: echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
