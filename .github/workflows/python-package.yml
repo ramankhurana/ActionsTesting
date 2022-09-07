@@ -13,3 +13,6 @@ jobs:
       - name: List files in the repository
         run: | 
              ls -ltr ${{ github.workspace }}
+      - name: check out again
+        run: | 
+             git clone git@github.com:ramankhurana/ActionsTesting.git
